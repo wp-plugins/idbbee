@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: idbbee
-Plugin URI: http://www.dbbee.com/plugins/idbbee.zip
+Plugin URI: https://wordpress.org/plugins/idbbee/
 Description: [idbbee src="//thyme.dbbee.com/u/demo/" width="100%" height="600"] shortcode
 Version: 1.0
 Author: dbBee.com
@@ -29,7 +29,7 @@ function idbbee_embed_shortcode( $atts, $content = null ) {
 			$atts[$default] = $value;
 		}
 	}
-	$dbbeecode = "\n".'<!-- dbBee iframe plugin v.1.0 http://www.dbbee.com/plugins/idbbee.zip -->'."\n";
+	$dbbeecode = "\n".'<!-- dbBee iframe plugin v.1.0 https://wordpress.org/plugins/idbbee/ -->'."\n";
 	$dbbeecode .= '<iframe';
 	foreach( $atts as $attr => $value ) {
 			if ( $value != '' ) {
