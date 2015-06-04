@@ -1,5 +1,5 @@
 === idbbee ===
-Contributors: faikdjikic
+Contributors: dbbee
 Donate link: http://www.dbbee.com/plans
 Author: dbbee.com
 Service URI: http://www.dbbee.com
